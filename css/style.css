@@ -1,0 +1,43 @@
+body {
+    background-image: url(images/v904-nunny-015-d.jpg); 
+    background-size: cover;
+    font-family: "Kanit", system-ui;
+    font-weight: 300;
+    font-style: normal;
+} 
+
+.new .header{
+    color: white;
+    background-color: rgb(34, 33, 33);
+}
+
+.detail-table {
+    font-weight: 400;
+    font-size: 12pt
+}
+
+.detail-table .left {
+    padding-left: 35px;
+    width: 180px;
+    vertical-align: top;
+    text-align: left
+}
+
+.detail-table .right {
+    padding-left: 30px;
+    text-align: left;
+    max-width: 520px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.detail-table .right a:hover {
+    color: #1D5FB3;
+    text-decoration: underline;
+    cursor: pointer
+}
+
+.detail-table .right a {
+    color: inherit;
+    text-decoration: none
+}
